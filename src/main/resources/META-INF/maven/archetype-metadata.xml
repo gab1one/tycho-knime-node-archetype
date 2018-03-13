@@ -10,13 +10,17 @@
         <defaultValue>1.8</defaultValue>
       </requiredProperty>
       <requiredProperty key="knime_version">
-        <defaultValue>3.3</defaultValue>
+        <defaultValue>3.6</defaultValue>
       </requiredProperty>
       <requiredProperty key="github_organization"/>
       <requiredProperty key="github_repository"/>
       <requiredProperty key="node"/>
-      <requiredProperty key="vendor"/>
-      <requiredProperty key="branded"/>
+      <requiredProperty key="version">
+        <defaultValue>1.0.0-SNAPSHOT</defaultValue>
+      </requiredProperty>   
+      <requiredProperty key="vendor">
+        <defaultValue>Netherlands eScience Center</defaultValue>
+      </requiredProperty>
     </requiredProperties>
   <fileSets>
     <fileSet filtered="true" encoding="UTF-8">
